@@ -8,7 +8,12 @@ import PySimpleGUI as sg
 import time
 import numpy as np
 version=str(0.1)
-rgb=0 ,bgr=0, asr=0, nwa=0, nw=0, nh=0
+rgb=0
+bgr=0
+asr=0
+nwa=0
+nw=0
+nh=0
 print ("Version ", version)
 sg.theme('Dark Blue 3')
 layout = [[sg.Text('Give me a batch of images to optimize')],
